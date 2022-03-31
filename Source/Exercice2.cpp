@@ -10,7 +10,7 @@ void Exercice2() {
 
 // Write a function that take an intput and return a factoriel of that input
 
-void facto (int n)
+void facto(int n)
 {
     std::cout << "Entrez un nombre : " << std::endl;
     std::cin >> n;
