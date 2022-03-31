@@ -3,12 +3,13 @@
 //
 
 #include "Exercice1.h"
+#include "Exercice2.h"
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    Exercice1();
+    Exercice2();
     return 0;
 }
