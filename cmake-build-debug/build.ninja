@@ -56,12 +56,26 @@ build CMakeFiles/TP1C_.dir/Source/Exercice1.cpp.obj: CXX_COMPILER__TP1C__Debug C
   OBJECT_DIR = CMakeFiles\TP1C_.dir
   OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir\Source
 
-build CMakeFiles/TP1C_.dir/Header/main.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Header/main.cpp || cmake_object_order_depends_target_TP1C_
-  DEP_FILE = CMakeFiles\TP1C_.dir\Header\main.cpp.obj.d
+build CMakeFiles/TP1C_.dir/Source/Exercice2.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice2.cpp || cmake_object_order_depends_target_TP1C_
+  DEP_FILE = CMakeFiles\TP1C_.dir\Source\Exercice2.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
   OBJECT_DIR = CMakeFiles\TP1C_.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir\Header
+  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir\Source
+
+build CMakeFiles/TP1C_.dir/Source/Exercice3.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice3.cpp || cmake_object_order_depends_target_TP1C_
+  DEP_FILE = CMakeFiles\TP1C_.dir\Source\Exercice3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
+  OBJECT_DIR = CMakeFiles\TP1C_.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir\Source
+
+build CMakeFiles/TP1C_.dir/main.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/main.cpp || cmake_object_order_depends_target_TP1C_
+  DEP_FILE = CMakeFiles\TP1C_.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
+  OBJECT_DIR = CMakeFiles\TP1C_.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir
 
 
 # =============================================================================
@@ -71,7 +85,7 @@ build CMakeFiles/TP1C_.dir/Header/main.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Us
 #############################################
 # Link the executable TP1C_.exe
 
-build TP1C_.exe: CXX_EXECUTABLE_LINKER__TP1C__Debug CMakeFiles/TP1C_.dir/Source/Exercice1.cpp.obj CMakeFiles/TP1C_.dir/Header/main.cpp.obj
+build TP1C_.exe: CXX_EXECUTABLE_LINKER__TP1C__Debug CMakeFiles/TP1C_.dir/Source/Exercice1.cpp.obj CMakeFiles/TP1C_.dir/Source/Exercice2.cpp.obj CMakeFiles/TP1C_.dir/Source/Exercice3.cpp.obj CMakeFiles/TP1C_.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TP1C_.dir

@@ -8,4 +8,8 @@ include_directories(Header)
 add_executable(TP1C_
         Header/Exercice1.h
         Source/Exercice1.cpp
-        Header/main.cpp)
+        Header/Exercice2.h
+        Source/Exercice2.cpp
+        Header/Exercice3.h
+        Source/Exercice3.cpp
+        main.cpp)

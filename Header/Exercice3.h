@@ -7,4 +7,5 @@
 
 void Exercice3();
 void strongNumber(int n);
+
 #endif //TP1C__EXERCICE3_H

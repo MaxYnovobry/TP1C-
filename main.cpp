@@ -11,6 +11,6 @@ using namespace std;
 
 int main()
 {
-    Exercice2();
+    Exercice3();
     return 0;
 }
