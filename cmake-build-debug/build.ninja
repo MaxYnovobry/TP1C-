@@ -40,61 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target TP1C_
-
-
-#############################################
-# Order-only phony target for TP1C_
-
-build cmake_object_order_depends_target_TP1C_: phony || CMakeFiles/TP1C_.dir
-
-build CMakeFiles/TP1C_.dir/Source/Exercice1.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice1.cpp || cmake_object_order_depends_target_TP1C_
-  DEP_FILE = CMakeFiles\TP1C_.dir\Source\Exercice1.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
-  OBJECT_DIR = CMakeFiles\TP1C_.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir\Source
-
-build CMakeFiles/TP1C_.dir/Source/Exercice2.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice2.cpp || cmake_object_order_depends_target_TP1C_
-  DEP_FILE = CMakeFiles\TP1C_.dir\Source\Exercice2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
-  OBJECT_DIR = CMakeFiles\TP1C_.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir\Source
-
-build CMakeFiles/TP1C_.dir/Source/Exercice3.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice3.cpp || cmake_object_order_depends_target_TP1C_
-  DEP_FILE = CMakeFiles\TP1C_.dir\Source\Exercice3.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
-  OBJECT_DIR = CMakeFiles\TP1C_.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir\Source
-
-build CMakeFiles/TP1C_.dir/main.cpp.obj: CXX_COMPILER__TP1C__Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/main.cpp || cmake_object_order_depends_target_TP1C_
-  DEP_FILE = CMakeFiles\TP1C_.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
-  OBJECT_DIR = CMakeFiles\TP1C_.dir
-  OBJECT_FILE_DIR = CMakeFiles\TP1C_.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target TP1C_
-
-
-#############################################
-# Link the executable TP1C_.exe
-
-build TP1C_.exe: CXX_EXECUTABLE_LINKER__TP1C__Debug CMakeFiles/TP1C_.dir/Source/Exercice1.cpp.obj CMakeFiles/TP1C_.dir/Source/Exercice2.cpp.obj CMakeFiles/TP1C_.dir/Source/Exercice3.cpp.obj CMakeFiles/TP1C_.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\TP1C_.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = TP1C_.exe
-  TARGET_IMPLIB = libTP1C_.dll.a
-  TARGET_PDB = TP1C_.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -105,6 +50,61 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TP1
+
+
+#############################################
+# Order-only phony target for TP1
+
+build cmake_object_order_depends_target_TP1: phony || CMakeFiles/TP1.dir
+
+build CMakeFiles/TP1.dir/Source/Exercice1.cpp.obj: CXX_COMPILER__TP1_Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice1.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles\TP1.dir\Source\Exercice1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
+  OBJECT_DIR = CMakeFiles\TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP1.dir\Source
+
+build CMakeFiles/TP1.dir/Source/Exercice2.cpp.obj: CXX_COMPILER__TP1_Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice2.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles\TP1.dir\Source\Exercice2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
+  OBJECT_DIR = CMakeFiles\TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP1.dir\Source
+
+build CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj: CXX_COMPILER__TP1_Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/Source/Exercice3.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles\TP1.dir\Source\Exercice3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
+  OBJECT_DIR = CMakeFiles\TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP1.dir\Source
+
+build CMakeFiles/TP1.dir/main.cpp.obj: CXX_COMPILER__TP1_Debug C$:/Users/Laurie/Documents/YNOV$ INFO/B1/TP1C-/main.cpp || cmake_object_order_depends_target_TP1
+  DEP_FILE = CMakeFiles\TP1.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/Header"
+  OBJECT_DIR = CMakeFiles\TP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\TP1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TP1
+
+
+#############################################
+# Link the executable TP1.exe
+
+build TP1.exe: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/Source/Exercice1.cpp.obj CMakeFiles/TP1.dir/Source/Exercice2.cpp.obj CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj CMakeFiles/TP1.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TP1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TP1.exe
+  TARGET_IMPLIB = libTP1.dll.a
+  TARGET_PDB = TP1.exe.dbg
 
 
 #############################################
@@ -121,7 +121,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build TP1C_: phony TP1C_.exe
+build TP1: phony TP1.exe
 
 # =============================================================================
 # Folder targets.
@@ -131,7 +131,7 @@ build TP1C_: phony TP1C_.exe
 #############################################
 # Folder: C:/Users/Laurie/Documents/YNOV INFO/B1/TP1C-/cmake-build-debug
 
-build all: phony TP1C_.exe
+build all: phony TP1.exe
 
 # =============================================================================
 # Built-in targets

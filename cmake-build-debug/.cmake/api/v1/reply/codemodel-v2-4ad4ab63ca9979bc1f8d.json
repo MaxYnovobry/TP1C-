@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "TP1C_::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP1C_-Debug-aea0244a4dbdce26bece.json",
-					"name" : "TP1C_",
+					"id" : "TP1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TP1-Debug-afadb54c8fc384da45d5.json",
+					"name" : "TP1",
 					"projectIndex" : 0
 				}
 			]

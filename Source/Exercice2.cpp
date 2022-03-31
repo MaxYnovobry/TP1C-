@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Exercice2.h"
+#include "../Header/Exercice2.h"
 
 void Exercice2() {
 
@@ -12,13 +12,14 @@ void Exercice2() {
 
 // Write a function that take an input and return a factoriel of that input
 
-void facto(int n)
+int facto(int n)
 {
     int s = 1 ;
     for (int i = 1 ; i <= n ; i++){
         s = s * i;
     }
-    std::cout << "factoriel de " << n << "=" << s << std::endl;
+    return s;
+
 }
 
 

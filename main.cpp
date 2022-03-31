@@ -2,9 +2,9 @@
 // Created by Laurie on 31/03/2022.
 //
 
-#include "Exercice1.h"
-#include "Exercice2.h"
-#include "Exercice3.h"
+#include "Header/Exercice1.h"
+#include "Header/Exercice2.h"
+#include "Header/Exercice3.h"
 #include <iostream>
 
 using namespace std;

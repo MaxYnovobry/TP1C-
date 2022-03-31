@@ -6,6 +6,6 @@
 #define TP1C_EXERCICE2_H
 
 void Exercice2();
-void facto(int n);
+int facto(int n);
 
 #endif //TP1C_EXERCICE2_H
