@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "Exercice3.h"
+#include "../Header/Exercice3.h"
 #include <cstring>
 
 void Exercice3(){
