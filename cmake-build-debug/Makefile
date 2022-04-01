@@ -224,6 +224,30 @@ Source/Exercice4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice4.cpp.s
 .PHONY : Source/Exercice4.cpp.s
 
+Source/Exercice5.obj: Source/Exercice5.cpp.obj
+.PHONY : Source/Exercice5.obj
+
+# target to build an object file
+Source/Exercice5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj
+.PHONY : Source/Exercice5.cpp.obj
+
+Source/Exercice5.i: Source/Exercice5.cpp.i
+.PHONY : Source/Exercice5.i
+
+# target to preprocess a source file
+Source/Exercice5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice5.cpp.i
+.PHONY : Source/Exercice5.cpp.i
+
+Source/Exercice5.s: Source/Exercice5.cpp.s
+.PHONY : Source/Exercice5.s
+
+# target to generate assembly for a file
+Source/Exercice5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice5.cpp.s
+.PHONY : Source/Exercice5.cpp.s
+
 Source/Menu.obj: Source/Menu.cpp.obj
 .PHONY : Source/Menu.obj
 
@@ -293,6 +317,9 @@ help:
 	@echo ... Source/Exercice4.obj
 	@echo ... Source/Exercice4.i
 	@echo ... Source/Exercice4.s
+	@echo ... Source/Exercice5.obj
+	@echo ... Source/Exercice5.i
+	@echo ... Source/Exercice5.s
 	@echo ... Source/Menu.obj
 	@echo ... Source/Menu.i
 	@echo ... Source/Menu.s
