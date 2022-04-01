@@ -6,7 +6,6 @@
 #include "Exercice3.h"
 #include "Exercice2.h"
 
-#include <cstring>
 
 void Exercice3(){
     std::cout << "---------- Exercice 3 --------------" << std::endl;

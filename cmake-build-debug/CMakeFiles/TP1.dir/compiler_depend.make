@@ -405,10 +405,7 @@ CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj: ../Source/Exercice3.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   ../Header/Exercice3.h \
-  ../Header/Exercice2.h \
-  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
-  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/x86_64-w64-mingw32/include/string.h \
-  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h
+  ../Header/Exercice2.h
 
 CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj: ../Source/Exercice4.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
@@ -561,11 +558,7 @@ CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj: ../Source/Exercice4.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bit \
   ../Header/Exercice4.h
 
-CMakeFiles/TP1.dir/main.cpp.obj: ../main.cpp \
-  ../Header/Exercice1.h \
-  ../Header/Exercice2.h \
-  ../Header/Exercice3.h \
-  ../Header/Exercice4.h \
+CMakeFiles/TP1.dir/Source/Menu.cpp.obj: ../Source/Menu.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -697,7 +690,15 @@ CMakeFiles/TP1.dir/main.cpp.obj: ../main.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+  ../Header/Exercice1.h \
+  ../Header/Exercice2.h \
+  ../Header/Exercice3.h \
+  ../Header/Exercice4.h \
+  ../Header/Menu.h
+
+CMakeFiles/TP1.dir/main.cpp.obj: ../main.cpp \
+  ../Header/Menu.h
 
 
 ../Source/Exercice1.cpp:
@@ -986,12 +987,6 @@ C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/m
 
 ../Header/Exercice3.h:
 
-C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring:
-
-C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/x86_64-w64-mingw32/include/string.h:
-
-C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
-
 ../Source/Exercice4.cpp:
 
 C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector:
@@ -1017,5 +1012,9 @@ C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/m
 C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h:
 
 C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric:
+
+../Source/Menu.cpp:
+
+../Header/Menu.h:
 
 ../main.cpp:

@@ -1,5 +1,5 @@
-CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj: \
- C:\Users\Admin\CLionProjects\TP1C-\Source\Exercice3.cpp \
+CMakeFiles/TP1.dir/Source/Menu.cpp.obj: \
+ C:\Users\Admin\CLionProjects\TP1C-\Source\Menu.cpp \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -132,5 +132,8 @@ CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj: \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice1.h \
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice2.h \
  C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice3.h \
- C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice2.h
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice4.h \
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Menu.h

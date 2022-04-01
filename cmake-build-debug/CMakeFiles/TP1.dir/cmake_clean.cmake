@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj.d"
   "CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj"
   "CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj.d"
+  "CMakeFiles/TP1.dir/Source/Menu.cpp.obj"
+  "CMakeFiles/TP1.dir/Source/Menu.cpp.obj.d"
   "CMakeFiles/TP1.dir/main.cpp.obj"
   "CMakeFiles/TP1.dir/main.cpp.obj.d"
   "TP1.exe"

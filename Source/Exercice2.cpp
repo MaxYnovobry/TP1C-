@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../Header/Exercice2.h"
+#include "Exercice2.h"
 
 void Exercice2() {
 
