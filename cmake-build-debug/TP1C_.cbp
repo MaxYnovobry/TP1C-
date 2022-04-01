@@ -99,6 +99,9 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice5.h">
 			<Option target="TP1"/>
 		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Header/Gestion_Erreur.h">
+			<Option target="TP1"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Header/Menu.h">
 			<Option target="TP1"/>
 		</Unit>
@@ -115,6 +118,9 @@
 			<Option target="TP1"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Source/Exercice5.cpp">
+			<Option target="TP1"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Source/Gestion_Erreur.cpp">
 			<Option target="TP1"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Source/Menu.cpp">

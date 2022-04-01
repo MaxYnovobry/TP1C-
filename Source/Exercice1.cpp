@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../Header/Exercice1.h"
+#include "../Header/Gestion_Erreur.h"
 
 void Exercice1() {
 
@@ -17,7 +18,7 @@ void Exercice1() {
 void evenforNumber(int n)
 {
     std::cout << "Entrez un nombre : " << std::endl;
-    std::cin >> n;
+    isANumber(n);
     for (int i = 0; i < n; i++)
     {
         if (i % 2 == 0)
@@ -29,7 +30,7 @@ void evenforNumber(int n)
 
 void evenwhileNumber(int n) {
     std::cout << "Entrez un nombre : " << std::endl;
-    std::cin >> n;
+    isANumber(n);
     int i = 0;
     while (i < n) {
         if (i % 2 == 0) {
@@ -43,7 +44,7 @@ void evenwhileNumber(int n) {
 void sommesforNumber(int n){
     int s = 0;
     std::cout << "Entrez un nombre : " << std::endl;
-    std::cin >> n;
+    isANumber(n);
     for (int i = 0; i < n; i++)
     {
         if (i % 2 == 0)
@@ -58,7 +59,7 @@ void sommeswhileNumber(int n) {
     int i = 0;
     int s = 0;
     std::cout << "Entrez un nombre : ";
-    std::cin >> n;
+    isANumber(n);
     while (i < n) {
         if (i % 2 == 0) {
             s = s + i;

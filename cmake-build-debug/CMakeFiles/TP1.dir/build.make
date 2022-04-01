@@ -143,11 +143,26 @@ CMakeFiles/TP1.dir/Source/Exercice5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/Source/Exercice5.cpp.s"
 	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\CLionProjects\TP1C-\Source\Exercice5.cpp -o CMakeFiles\TP1.dir\Source\Exercice5.cpp.s
 
+CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj: CMakeFiles/TP1.dir/flags.make
+CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
+CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj: ../Source/Gestion_Erreur.cpp
+CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj: CMakeFiles/TP1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TP1C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj"
+	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj -MF CMakeFiles\TP1.dir\Source\Gestion_Erreur.cpp.obj.d -o CMakeFiles\TP1.dir\Source\Gestion_Erreur.cpp.obj -c C:\Users\Admin\CLionProjects\TP1C-\Source\Gestion_Erreur.cpp
+
+CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.i"
+	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\CLionProjects\TP1C-\Source\Gestion_Erreur.cpp > CMakeFiles\TP1.dir\Source\Gestion_Erreur.cpp.i
+
+CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.s"
+	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\CLionProjects\TP1C-\Source\Gestion_Erreur.cpp -o CMakeFiles\TP1.dir\Source\Gestion_Erreur.cpp.s
+
 CMakeFiles/TP1.dir/Source/Menu.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/Source/Menu.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/Source/Menu.cpp.obj: ../Source/Menu.cpp
 CMakeFiles/TP1.dir/Source/Menu.cpp.obj: CMakeFiles/TP1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TP1C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TP1.dir/Source/Menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TP1C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP1.dir/Source/Menu.cpp.obj"
 	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TP1.dir/Source/Menu.cpp.obj -MF CMakeFiles\TP1.dir\Source\Menu.cpp.obj.d -o CMakeFiles\TP1.dir\Source\Menu.cpp.obj -c C:\Users\Admin\CLionProjects\TP1C-\Source\Menu.cpp
 
 CMakeFiles/TP1.dir/Source/Menu.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/TP1.dir/main.cpp.obj: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/main.cpp.obj: CMakeFiles/TP1.dir/includes_CXX.rsp
 CMakeFiles/TP1.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/TP1.dir/main.cpp.obj: CMakeFiles/TP1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TP1C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TP1.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\TP1C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TP1.dir/main.cpp.obj"
 	C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TP1.dir/main.cpp.obj -MF CMakeFiles\TP1.dir\main.cpp.obj.d -o CMakeFiles\TP1.dir\main.cpp.obj -c C:\Users\Admin\CLionProjects\TP1C-\main.cpp
 
 CMakeFiles/TP1.dir/main.cpp.i: cmake_force
@@ -180,6 +195,7 @@ TP1_OBJECTS = \
 "CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj" \
 "CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj" \
 "CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj" \
+"CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj" \
 "CMakeFiles/TP1.dir/Source/Menu.cpp.obj" \
 "CMakeFiles/TP1.dir/main.cpp.obj"
 
@@ -191,13 +207,14 @@ TP1.exe: CMakeFiles/TP1.dir/Source/Exercice2.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj
+TP1.exe: CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/Source/Menu.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/main.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/build.make
 TP1.exe: CMakeFiles/TP1.dir/linklibs.rsp
 TP1.exe: CMakeFiles/TP1.dir/objects1.rsp
 TP1.exe: CMakeFiles/TP1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\TP1C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TP1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\TP1C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TP1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TP1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

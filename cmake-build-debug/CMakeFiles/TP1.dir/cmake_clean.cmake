@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj.d"
   "CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj"
   "CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj.d"
+  "CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj"
+  "CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj.d"
   "CMakeFiles/TP1.dir/Source/Menu.cpp.obj"
   "CMakeFiles/TP1.dir/Source/Menu.cpp.obj.d"
   "CMakeFiles/TP1.dir/main.cpp.obj"

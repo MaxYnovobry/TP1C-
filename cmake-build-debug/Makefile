@@ -248,6 +248,30 @@ Source/Exercice5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice5.cpp.s
 .PHONY : Source/Exercice5.cpp.s
 
+Source/Gestion_Erreur.obj: Source/Gestion_Erreur.cpp.obj
+.PHONY : Source/Gestion_Erreur.obj
+
+# target to build an object file
+Source/Gestion_Erreur.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj
+.PHONY : Source/Gestion_Erreur.cpp.obj
+
+Source/Gestion_Erreur.i: Source/Gestion_Erreur.cpp.i
+.PHONY : Source/Gestion_Erreur.i
+
+# target to preprocess a source file
+Source/Gestion_Erreur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.i
+.PHONY : Source/Gestion_Erreur.cpp.i
+
+Source/Gestion_Erreur.s: Source/Gestion_Erreur.cpp.s
+.PHONY : Source/Gestion_Erreur.s
+
+# target to generate assembly for a file
+Source/Gestion_Erreur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.s
+.PHONY : Source/Gestion_Erreur.cpp.s
+
 Source/Menu.obj: Source/Menu.cpp.obj
 .PHONY : Source/Menu.obj
 
@@ -320,6 +344,9 @@ help:
 	@echo ... Source/Exercice5.obj
 	@echo ... Source/Exercice5.i
 	@echo ... Source/Exercice5.s
+	@echo ... Source/Gestion_Erreur.obj
+	@echo ... Source/Gestion_Erreur.i
+	@echo ... Source/Gestion_Erreur.s
 	@echo ... Source/Menu.obj
 	@echo ... Source/Menu.i
 	@echo ... Source/Menu.s
