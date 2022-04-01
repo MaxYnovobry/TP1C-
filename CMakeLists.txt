@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(Header)
 
 file(GLOB_RECURSE SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "Source/*.cpp" "Header/*.h" "main.cpp")
-add_executable(TP1 ${SOURCES})
+add_executable(TP1 ${SOURCES} Source/Exercice4.cpp Header/Exercice4.h)
 

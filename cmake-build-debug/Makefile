@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\max\Desktop\TP1C\TP1C-
+CMAKE_SOURCE_DIR = C:\Users\maxim\Desktop\TP1C\TP1C-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\max\Desktop\TP1C\TP1C-\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\maxim\Desktop\TP1C\TP1C-\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\max\Desktop\TP1C\TP1C-\cmake-build-debug\CMakeFiles C:\Users\max\Desktop\TP1C\TP1C-\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\Desktop\TP1C\TP1C-\cmake-build-debug\CMakeFiles C:\Users\maxim\Desktop\TP1C\TP1C-\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\max\Desktop\TP1C\TP1C-\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\Desktop\TP1C\TP1C-\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,6 +200,30 @@ Source/Exercice3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice3.cpp.s
 .PHONY : Source/Exercice3.cpp.s
 
+Source/Exercice4.obj: Source/Exercice4.cpp.obj
+.PHONY : Source/Exercice4.obj
+
+# target to build an object file
+Source/Exercice4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj
+.PHONY : Source/Exercice4.cpp.obj
+
+Source/Exercice4.i: Source/Exercice4.cpp.i
+.PHONY : Source/Exercice4.i
+
+# target to preprocess a source file
+Source/Exercice4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice4.cpp.i
+.PHONY : Source/Exercice4.cpp.i
+
+Source/Exercice4.s: Source/Exercice4.cpp.s
+.PHONY : Source/Exercice4.s
+
+# target to generate assembly for a file
+Source/Exercice4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/Source/Exercice4.cpp.s
+.PHONY : Source/Exercice4.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... Source/Exercice3.obj
 	@echo ... Source/Exercice3.i
 	@echo ... Source/Exercice3.s
+	@echo ... Source/Exercice4.obj
+	@echo ... Source/Exercice4.i
+	@echo ... Source/Exercice4.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
