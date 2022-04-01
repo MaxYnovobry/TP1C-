@@ -93,6 +93,9 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice3.h">
 			<Option target="TP1"/>
 		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice4.h">
+			<Option target="TP1"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Source/Exercice1.cpp">
 			<Option target="TP1"/>
 		</Unit>
@@ -100,6 +103,9 @@
 			<Option target="TP1"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Source/Exercice3.cpp">
+			<Option target="TP1"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/Source/Exercice4.cpp">
 			<Option target="TP1"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/TP1C-/main.cpp">
