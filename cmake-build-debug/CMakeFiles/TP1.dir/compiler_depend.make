@@ -270,7 +270,8 @@ CMakeFiles/TP1.dir/Source/Exercice2.cpp.obj: ../Source/Exercice2.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  ../Header/Exercice2.h
+  ../Header/Exercice2.h \
+  ../Header/Gestion_Erreur.h
 
 CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj: ../Source/Exercice3.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
@@ -406,7 +407,8 @@ CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj: ../Source/Exercice3.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   ../Header/Exercice3.h \
-  ../Header/Exercice2.h
+  ../Header/Exercice2.h \
+  ../Header/Gestion_Erreur.h
 
 CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj: ../Source/Exercice4.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
@@ -557,7 +559,8 @@ CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj: ../Source/Exercice4.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bit \
-  ../Header/Exercice4.h
+  ../Header/Exercice4.h \
+  ../Header/Gestion_Erreur.h
 
 CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj: ../Source/Exercice5.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \

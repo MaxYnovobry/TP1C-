@@ -18,25 +18,33 @@ void Exercice1() {
 void evenforNumber(int n)
 {
     std::cout << "Entrez un nombre : " << std::endl;
-    isANumber(n);
-    for (int i = 0; i < n; i++)
-    {
-        if (i % 2 == 0)
-        {
-            std::cout << i << " est un nombre pair" << std::endl;
+    if (n = isANumber(n)) {
+            for (int i = 0; i < n; i++) {
+                if (i % 2 == 0) {
+                    std::cout << i << " est un nombre pair" << std::endl;
+                }
+            }
         }
+    else {
+        std::cout << "Vous n'avez pas saisi un nombre" << std::endl;// Gestion des erreurs
+        evenforNumber(n);
     }
 }
 
 void evenwhileNumber(int n) {
     std::cout << "Entrez un nombre : " << std::endl;
-    isANumber(n);
-    int i = 0;
-    while (i < n) {
-        if (i % 2 == 0) {
-            std::cout << i << " est un nombre pair" << std::endl;
-        }
+    if (n = isANumber(n)) {
+        int i = 0;
+        while (i < n) {
+            if (i % 2 == 0) {
+                std::cout << i << " est un nombre pair" << std::endl;
+            }
             i++;
+        }
+    }
+    else {
+        std::cout << "Vous n'avez pas saisi un nombre positif" << std::endl;// Gestion des erreurs
+        evenwhileNumber(n);
     }
 }
 // Write a function that needs an input and increment the number of these even numbers in the input using a for and a while loop
@@ -44,28 +52,36 @@ void evenwhileNumber(int n) {
 void sommesforNumber(int n){
     int s = 0;
     std::cout << "Entrez un nombre : " << std::endl;
-    isANumber(n);
-    for (int i = 0; i < n; i++)
-    {
-        if (i % 2 == 0)
-        {
-            s = s + i;
+    if (n = isANumber(n)) {
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0) {
+                s = s + i;
+            }
         }
+        std::cout << "La somme des nombres pairs est : " << s << std::endl;
     }
-    std::cout << "La somme des nombres pairs est : " << s << std::endl;
+    else {
+        std::cout << "Vous n'avez pas saisi un nombre" << std::endl;// Gestion des erreurs
+        sommesforNumber(n);
+    }
 }
 
 void sommeswhileNumber(int n) {
     int i = 0;
     int s = 0;
     std::cout << "Entrez un nombre : ";
-    isANumber(n);
-    while (i < n) {
-        if (i % 2 == 0) {
-            s = s + i;
+    if (n = isANumber(n)) {
+        while (i < n) {
+            if (i % 2 == 0) {
+                s = s + i;
+            }
+            i++;
         }
-        i++;
+        std::cout << "La somme des nombres pairs est : " << s << std::endl;
     }
-    std::cout << "La somme des nombres pairs est : " << s << std::endl;
+    else {
+        std::cout << "Vous n'avez pas saisi un nombre" << std::endl;// Gestion des erreurs
+        sommeswhileNumber(n);
+    }
 }
 

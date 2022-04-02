@@ -4,6 +4,5 @@
 
 #ifndef TP1C__GESTION_ERREUR_H
 #define TP1C__GESTION_ERREUR_H
-
-void isANumber(int number);
+ int isANumber(int number);
 #endif //TP1C__GESTION_ERREUR_H

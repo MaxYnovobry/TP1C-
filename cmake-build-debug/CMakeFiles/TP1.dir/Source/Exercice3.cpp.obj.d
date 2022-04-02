@@ -133,4 +133,5 @@ CMakeFiles/TP1.dir/Source/Exercice3.cpp.obj: \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
  C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice3.h \
- C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice2.h
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice2.h \
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Gestion_Erreur.h

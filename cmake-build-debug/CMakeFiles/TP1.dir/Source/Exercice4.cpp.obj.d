@@ -148,4 +148,5 @@ CMakeFiles/TP1.dir/Source/Exercice4.cpp.obj: \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bit \
- C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice4.h
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice4.h \
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Gestion_Erreur.h

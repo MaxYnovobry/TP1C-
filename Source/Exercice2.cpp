@@ -1,13 +1,18 @@
 #include <iostream>
 #include "Exercice2.h"
+#include "Gestion_Erreur.h"
 
 void Exercice2() {
 
     std::cout << "---------- Exercice 2 --------------" << std::endl;
     std::cout << "Entrez un nombre : " << std::endl;
     int n = 0;
-    std::cin >> n;
-    facto(n);
+    if (n = isANumber(n)) {
+        std::cout << "La factorielle de " << n << " est "<< facto(n) << std::endl;
+    }
+    else {
+        Exercice2();
+    }
 }
 
 // Write a function that take an input and return a factoriel of that input

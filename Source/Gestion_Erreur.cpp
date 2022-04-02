@@ -8,13 +8,30 @@
 
 // Write a program that can see if the input is a number or not
 
-void isANumber(int nombre) {
+int isANumber(int nombre) {
     std::cin >> nombre;
     if (std::cin.fail()) {
         std::cout << "Erreur de saisie" << std::endl;
         std::cin.clear();
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    } else {
-        std::cout << "Vous avez saisi : " << nombre << std::endl;
+        return isANumber(nombre);
     }
+
+    else if (nombre < 0) {
+        std::cout << "Veuillez saisir un nombre positif" << std::endl;
+        return isANumber(nombre);
+    }
+
+    else if (nombre > INT_MAX) {
+        std::cout << "Veuillez saisir un nombre inférieur à " << INT_MAX << std::endl;
+        return isANumber(nombre);
+    }
+
+    else {
+        return nombre;
+    }
+    return nombre;
 }
+
+
+

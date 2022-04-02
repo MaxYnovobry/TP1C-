@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <numeric>
 #include "Exercice4.h"
+#include "Gestion_Erreur.h"
 
 
 void Exercice4(){
@@ -40,29 +41,6 @@ void notation(int note){
 
 
 
-//Write a game where the goal is to find a number chosen by the machine between a n number chosen by the machine n and -n (n is an integer). The user can enter a number and the program will tell the user if the number is too high or too low.
-//The program will then display the number of tries it took the user to find the number.    (Hint: use a loop)
-//the program will say if the user won or lost.
-//The program will then ask the user if he wants to play again.
-
-void game(){
-    int n = 0;
-    n = rand() % 10;
-    int nb = 0;
-    int nbTries = 0;
-    std::cout << "Entrez un nombre entre -10 et 10 : ";
-    std::cin >> n;
-    while (n != nb) {
-        nbTries++;
-        std::cout << "Entrez un nombre entre -10 et 10 : ";
-        std::cin >> n;
-        if (n > nb) {
-            std::cout << "C'est moins" << std::endl;
-        } else if (n < nb) {
-            std::cout << "C'est plus" << std::endl;
-        }
-    }
-}
 //
 // Created by maxim on 01/04/2022.
 //
