@@ -8,6 +8,7 @@
 #include <iostream>
 #include "Exercice5.h"
 #include "Gestion_Erreur.h"
+#include "Menu.h"
 
 void Exercice5(){
     std::cout << "---------- Exercice 5 --------------" << std::endl;;
@@ -64,7 +65,20 @@ void game(int n) {
             std::cout << "Vous avez perdu" << std::endl;
         }
 
-        std::cout << "Voulez-vous rejouer ? (1 pour oui, 0 pour non) : ";
-        std::cin >> playAgain;
+        int choix;
+        std::cout << "Voulez vous rejouer ? 1 : Oui, 2 : Non" << std::endl;
+        do {
+            std::cin >> choix;
+            switch (choix) {
+                case 1:
+                    Exercice5();
+                    break;
+                case 2:
+                    Menu();
+                    break;
+                default:
+                    std::cout << "Choix invalide" << std::endl;
+            }
+        } while (choix != 5);
     }
 }
