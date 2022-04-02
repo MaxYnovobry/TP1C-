@@ -23,7 +23,7 @@ void notation(int note){
     std::vector<float> listNotes;
     for (int i = 1; i <= 10; i++) {
         std::cout << "Entrez la note n" << i << " entre 0 et 20 : ";
-        std::cin >> note;
+        note = isANumber(note);
         if (note < 0 || note > 20) {
             std::cout << "Veuillez entrer une note entre 0 et 20" << std::endl;
             i--;

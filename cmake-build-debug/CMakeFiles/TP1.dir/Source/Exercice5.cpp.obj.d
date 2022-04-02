@@ -132,4 +132,5 @@ CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj: \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice5.h
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Exercice5.h \
+ C:/Users/Admin/CLionProjects/TP1C-/Header/Gestion_Erreur.h

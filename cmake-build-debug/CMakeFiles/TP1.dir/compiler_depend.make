@@ -695,7 +695,9 @@ CMakeFiles/TP1.dir/Source/Exercice5.cpp.obj: ../Source/Exercice5.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  ../Header/Exercice5.h
+  ../Header/Exercice5.h \
+  ../Header/Gestion_Erreur.h \
+  ../Header/Menu.h
 
 CMakeFiles/TP1.dir/Source/Gestion_Erreur.cpp.obj: ../Source/Gestion_Erreur.cpp \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
@@ -1299,8 +1301,8 @@ C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/m
 
 ../Header/Exercice5.h:
 
-../Source/Menu.cpp:
-
 ../Header/Menu.h:
+
+../Source/Menu.cpp:
 
 ../main.cpp:

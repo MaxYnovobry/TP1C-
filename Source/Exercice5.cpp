@@ -7,6 +7,7 @@
 //
 #include <iostream>
 #include "Exercice5.h"
+#include "Gestion_Erreur.h"
 
 void Exercice5(){
     std::cout << "---------- Exercice 5 --------------" << std::endl;;
@@ -35,7 +36,7 @@ void game(int n) {
         int tries = 1;
         randomNumber = rand() % (n * 2 + 1) - n;
         std::cout << "Entrez un nombre entre -" << n << " et " << n << " : ";
-        std::cin >> userNumber;
+        userNumber = isANumber2(userNumber);
         while (userNumber != randomNumber && tries < 10) {
             if (userNumber > randomNumber) {
                 std::cout << "C'est moins" << std::endl;
@@ -45,7 +46,7 @@ void game(int n) {
                 tries++;
             }
             std::cout << "Entrez un nombre entre -" << n << " et " << n << " : ";
-            std::cin >> userNumber;
+            userNumber = isANumber2(userNumber);
         }
         if (tries == 10) {
             loose = true;
